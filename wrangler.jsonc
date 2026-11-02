@@ -1,0 +1,35 @@
+{
+    "$schema": "node_modules/wrangler/config-schema.json",
+    "name": "invoice-generator",
+    "main": ".open-next/worker.js",
+    "compatibility_date": "2026-11-01",
+    "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+
+    "assets": {
+      "binding": "ASSETS",
+      "directory": ".open-next/assets"
+    },
+
+    "d1_databases": [
+      {
+        "binding": "DB",
+        "database_name": "invoice-generator-db",
+        "database_id": "FILL_IN_LANGKAH_6"
+      }
+    ],
+
+    "r2_buckets": [
+      {
+        "binding": "R2",
+        "bucket_name": "invoice-generator-files"
+      }
+    ],
+
+    "browser": {
+      "binding": "BROWSER"
+    },
+
+    "observability": {
+      "enabled": true
+    }
+  }
