@@ -1,3 +1,4 @@
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -18,3 +19,6 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// Exposes wrangler bindings (DB, R2, BROWSER) to `next dev` via getCloudflareContext().
+initOpenNextCloudflareForDev();
