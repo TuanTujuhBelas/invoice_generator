@@ -14,9 +14,11 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.45.4",
+    "lucide-react": "^1.72.0",
     "next": "16.4.4",
     "react": "19.3.0",
     "react-dom": "19.3.0",
+    "react-hook-form": "^7.92.0",
     "zod": "^4.6.7"
   },
   "devDependencies": {

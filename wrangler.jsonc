@@ -14,7 +14,7 @@
       {
         "binding": "DB",
         "database_name": "invoice-generator-db",
-        "database_id": "FILL_IN_LANGKAH_6"
+        "database_id": "c044fe2e-74f0-43f5-ba24-4edddf97c105"
       }
     ],
 
@@ -27,6 +27,11 @@
 
     "browser": {
       "binding": "BROWSER"
+    },
+
+    "vars": {
+      "ACCESS_TEAM_DOMAIN": "",
+      "ACCESS_AUD": ""
     },
 
     "observability": {
